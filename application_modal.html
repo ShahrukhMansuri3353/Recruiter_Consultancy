@@ -1,0 +1,112 @@
+<html lang="en">
+   <head>
+      <title>Consultant - application_modal</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/reset.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+      <link href="css/responsive.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;family=Manrope:wght@200;300;400;500;600;700;800&amp;family=Open+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+   </head>
+   <body class="jobs_body">
+      <div class="container-fluid">
+         <div class="main">
+            <!-- || left sidebar html start || -->
+            <div class="menu_wrapper">
+               <div class="jd_left_sidebar">
+                  <div class="jd_sidebar_box ">
+                     <div class="header_left_top d-flex">
+                        <div class="logo">
+                           <img src="images/svg_icons/logo.svg" alt="setting" class="logo_1">	 	
+                        </div>
+                     </div>
+                     <div class="sidebar_btn d-flex align-items-center">
+                        <img src="images/svg_icons/common_heading_dot.svg"><span>Applicant/Sourcing</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- || left sidebar html End || -->
+            <div class="body_wrapper">
+               <!-- || Top Header html Start || -->
+               <!-- || Top Header html End || -->
+               <section class="jd_flow_section appl_sourcingPage">
+                  <div class="jd_flow_main d-flex">
+                     <div class="jd_right ">
+                        <div class="jd_heading d-flex justify-content-between align-items-center ps-0">
+                        </div>
+                                              <!-------------------application_modal------------------>
+                        <div class="login_modal">
+                           <div class="right_sideModal">
+                              <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#myModall">
+                              Application Modal 
+                              </button>
+                           </div>
+                           <div class="modal fade" id="myModall" style="display: none;" aria-hidden="true">
+                              <div class="modal-dialog modal-lg loginModal">
+                                 <div class="modal-content rounded-3">
+                                    <!-- Modal Header -->
+                                    <div class="modal-header border_style pb-3">
+                                       <h6 class="modal-title login_font">Log in to Linked In</h6>
+                                    </div>
+                                    <!-- Modal body -->
+                                    <div class="modal-body modaldiv_content m-auto mt-5">
+                                       <div class="jdFormField modal_form">
+                                          <label>User Name</label>
+                                          <input type="text" class="form-control" placeholder="Placeholder">
+                                       </div>
+                                       <div class="jdFormField modal_form mt-5">
+                                          <label>Password</label>
+                                          <input type="text" class="form-control" placeholder="Placeholder">
+                                       </div>
+                                       <div class="login_modal mt-4 text-end">
+                                          <button type="button" class="btn btn-primary" data-dismiss="modal">Log in</button>
+                                       </div>
+                                    </div>
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer bg_footer mt-5">
+                                       <button type="button" class="btn" data-dismiss="modal">close</button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                                                <!-------------------main_modal------------------>                  
+                        <div class="login_modal mt-3">
+                           <div class="right_sideModal">
+                              <button type="button" class="btn btn-success" data-toggle="modal" data-target="#mainModall">
+                              Main Modal
+                              </button>
+                           </div>
+                           <div class="modal fade" id="mainModall" style="display: none;" aria-hidden="true">
+                              <div class="modal-dialog modal-md">
+                                 <div class="modal-content rounded-3">
+                                    <!-- Modal Header -->
+                                    <div class="modal-header border_style">
+                                       <h6 class="modal-title login_font">Schedule Interview</h6>
+                                    </div>
+                                    <!-- Modal body -->
+                                    <div class="modal-body schedule_modal ps-4">
+                                       <p><a href="javascript:void(0)">On Google Calendar</a></p>
+                                       <p><a href="javascript:void(0)">On Calendly</a></p>
+                                       <p><a href="javascript:void(0)">On E-mail</a></p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+            </div>
+         </div>
+      </div>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
+</html>

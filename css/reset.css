@@ -1,0 +1,276 @@
+
+:root{
+
+	/*colors variable*/
+	--black: #212121;
+	--white: #ffffff;
+	--blue: #2264E5;
+	--dark_black: #000000;
+	--dark_gray: #666666;
+	--gray: #C3C3C3;
+	--light_gray: #FAFAFA;
+	--light_gray2: #EBEBEB;
+	--dark_gray3: #464F60;
+	--light_blue: #f3f7ff;
+	--dark_gray2:#f5f5f5;
+	--red:#FF5050;
+    --blue_trprt: #f7f9fd;
+    --blue01:#2264E5;
+    --blue2: rgba(34, 100, 229, 0.1);
+    --gray01:#666666;
+    --gray2: #B0B0B0;
+    --green: #0AA807;
+    --red_td: #FF5C00;
+    --light_blue2:#e4ebf8;
+    --yellow:#F2C94C;
+    --toast_Pblack:#2F3032;
+    --g2:#6A6A65;
+
+	/*font-size variable*/
+	--fs12: 12px;
+    --fs13:13px;
+    --fs14:14px;
+    --fs15:15px;
+    --fs16:16px;
+    --fs18:18px;
+    --fs20: 20px;
+    --fs24:24px;
+    --fs30:30px;
+	--fs35:35px;
+	--fs50:50px;
+}
+
+.bg_red{
+    background-color: #fdeeee;
+}
+.bg_green{
+    background-color:#e5faf5;
+}
+.bg_yellow{
+    background-color:#fdf8e8;
+}
+.bg_purple{
+    background-color:#eeeefe;
+}
+.bg_dark{
+    background-color:#7262e6;
+}
+
+
+.bg_g{
+    background-color: #00CC99;
+}
+.bg_r{
+    background-color: #EB5757;
+}
+.bg_y{
+    background-color: #F2C94C;
+}
+.bg_b{
+    background-color: #5458F7 ;
+}
+
+@media(min-width: 1600px) {
+     :root {
+	     /*font-size variable*/
+		--fs12: 14px;
+		--fs14: 16px;
+		--fs16: 18px;
+		--fs20: 22px;
+        --fs24: 26px;
+/*         --s8: 10px;
+         --s9: 11px;
+         --s10: 14px;
+         --s11: 14px;
+         --s12: 15px;
+         --s13: 16px;
+         --s14: 17px;
+         --s15: 20px;
+         --s16: 20px;
+         --s18: 20px;
+         --s20: 24px;
+         --s22: 25px;
+         --s24: 28px;
+         --s26: 27px;
+         --s30: 32px;
+         --s32: 36px;*/
+    }
+}
+
+
+@media(min-width: 2400px) {
+    :root {
+	    /*font-size variable*/
+		--fs12: 19px;
+		--fs14: 21px;
+		--fs16: 23px;
+		--fs20: 27px;
+        --fs24: 30px;
+ /*       --s8: 15px;
+        --s9: 16px;
+        --s10: 18px;
+        --s11: 18px;
+        --s12: 18px;
+        --s13: 22px;
+        --s14: 23px;
+        --s15: 24px;
+        --s16: 24px;
+        --s18: 24px;
+        --s20: 28px;
+        --s22: 29px;
+        --s24: 32px;
+        --s26: 32px;
+        --s32: 38px;*/
+   }
+}
+ @media(max-width: 1200px) {
+     :root {
+	    /*font-size variable*/
+		/* --fs12: 11px;
+		--fs14: 13px;
+		--fs16: 14px;
+		--fs20: 16px; */
+         /*--s8: 8px;
+         --s10: 10px;
+         --s12: 11px;
+         --s14: 13px;
+         --s13: 13px;
+         --s15: 13px;
+         --s16: 14px;
+         --s18: 15px;
+         --s20: 16px;
+         --s22: 17px;
+         --s24: 18px;
+         --s26: 25px;
+         --s32: 25px;*/
+    }
+}
+@media(max-width: 991px) {
+    :root {
+        /*--s13: 12px;*/
+   }
+}
+ @media(max-width: 575px) {
+     :root {
+	    /*font-size variable*/
+		--fs12: 11px;
+		--fs14: 13px;
+		--fs16: 15px;
+		--fs20: 19px;
+        --fs24: 18px;
+ /*        --s8: 8px;
+         --s10: 10px;
+         --s11: 9px;
+         --s13: 12px;
+         --s12: 12px;
+         --s14: 13px;
+         --s15: 13px;
+         --s16: 13px;
+         --s18: 13px;
+         --s20: 13px;
+         --s22: 15px;
+         --s24: 14px;
+         --s26: 18px;
+         --s32: 20px;*/
+    }
+}
+ @media(max-width: 450px) {
+     :root {
+	    /*font-size variable*/
+		/* --fs12: 10px;
+		--fs14: 12px;
+		--fs16: 14px;
+		--fs20: 18px; */
+        /* --s8: 8px;
+         --s10: 10px;
+         --s12: 12px;
+         --s13: 11px;
+         --s14: 12px;
+         --s15: 12px;
+         --s16: 12px;
+         --s18: 13px;
+         --s20: 14px;
+         --s24: 14px;
+         --s26: 16px;
+         --s32: 18px;*/
+    }
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	transition: 0.4s;
+    color: #000000;	
+}
+body{
+	padding:0px;
+	margin:0px;
+	box-sizing: border-box;
+}
+li a.active{
+	background-color: var(--blue);
+}
+.menus_item.active img{
+	opacity: 1;
+}
+.menus_item.active span{
+	color: var(--blue) !important;
+	font-weight: 600;
+	font-family: 'Manrope',sans-serif;
+}
+.jobs_body{
+	background-color: #fff;
+}
+
+/*short code*/
+.ptb16_8{
+	padding: 12px 8px 16px !important;
+}
+.pb10{
+	padding-bottom: 10px;
+}
+.pb15{
+	padding-bottom: 15px;
+}
+.pb20{
+	padding-bottom: 20px;
+}
+.pb30{
+	padding-bottom: 30px;
+}
+.pt30{
+	padding-top: 30px;
+}
+
+.font13{
+	font-size: 13px;
+}
+.blue{
+	color: var(--blue);
+}
+
+.d-block{
+	display: block;
+}
+label{
+	padding-bottom: 4px;
+}
+.pro_body {
+    background-color: #fafafa;
+}
+.green{
+    color:#0AA807;
+}
+.orange{
+    color:#FF5C00;
+}
+select:focus,input:focus,a:focus{
+	box-shadow: none !important;
+    /* outline: none !important; */
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+a:hover{
+    color: #000000;
+}

@@ -1,0 +1,894 @@
+
+
+@media(min-width:1600px){
+	.formBox,.formBox.published{
+		max-width:80%;
+	}
+	.form_field  .common_field {
+	    width: calc(30% - 24px);
+	}
+	.form_main{
+		width: 1340px;
+	}
+	.form_body{
+		max-width: 100%;
+	}
+	.maxw_section {
+		max-width: 100% !important;
+	}
+}
+
+@media(min-width: 1900px){
+	.form_field .common_field {
+	    width: calc(20% - 24px);
+	}
+	.dashboard_section {
+		max-width: 1600px;
+	}
+	.jdFormField.description_input {
+		width: calc(40% - 18px);
+	}
+	.jdFormField {
+		width: calc(20% - 26px);
+	}
+	.ClientForm .jdFormField {
+		width: calc(25% - 24px);
+	}
+}
+@media(max-width: 1600px){
+	.form_field  .common_field {
+	    width: calc(30% - 24px);
+	}
+}
+@media(max-width: 1200px){
+	.select_1 .dropdown {
+	    margin-left: 2px;
+	}
+	.jd_sidebar_box{
+		width: 100%;
+	}
+	.jdFormField input, .jdFormField input:focus{
+		width: 100%;
+	}
+	.jd_left_sidebar{
+		position: fixed;
+		left: 69px;
+		z-index: 9999;
+	}
+	.rightSiderbarcontent .header_left {
+		display: block !important;
+	}
+	.radio_boxs:last-child .defualt_pages{
+		column-gap:25px;
+	}
+	.form_field  .common_field {
+	    width: calc(33.33% - 16px);
+	}
+	.body_wrapper.rightSiderbarcontent {
+		width: calc(100% - 70px);
+	}
+	.left_ctn {
+		gap: 50px;
+	}
+	.ClientDetailPage .jd_heading{
+		flex-wrap: wrap;
+	}
+	.ClientDetailPage .right_part {
+		flex-wrap: wrap;
+		row-gap: 15px;
+	}
+	.ClientDetailPage .select_box {
+		order:4;
+	}
+	.ClientDetailPage .formHeaderDiv{
+		order: 5;
+	}
+	.ClientForm .jdFormField.w_50 {
+		width: calc(66.66% - 10px);
+	}
+	.ClientForm .jdFormField {
+		width: calc(33.33% - 22px);
+	}
+	.all_input_field {
+		width: calc(33% - 13.5px) !important;
+	}
+}
+@media(max-width: 1024px){
+	.header_notification {
+	    position: absolute;
+	    right: 15px;
+    	top: 15px;
+	}
+	.select_box .dropdown-toggle::after{
+		top: 10px;
+	}
+	.header_notification img.pro_img {
+	    height: 43px;
+	    width: 43px;
+	}
+	.search_bar_main_flex, .search_bar_box {
+	    gap: 15px;
+	    order: 2;
+	    width: 100%;
+	    justify-content: space-between !important;
+	    align-items: center;
+	    /* width: calc(100% - 225px); */
+	    max-width: 100%;
+	    min-width: max-content;
+	}
+	.search_bar{
+		height: 38px;
+	}
+	.select_box .dropdown button.dropdown-toggle, .select_box .dropdown button:focus{
+		height: 35px;
+	}
+	.select_box .dropdown{
+		height: 30px;
+	}
+	.header_profile {
+		margin-right: 0;
+	}
+	.mainHeading {
+		font-size: 35px;
+	}
+	.subtitle {
+		font-size: 25px;
+	}
+	.applicantDetails .jd_right .jd_heading .jd_heading_right .select_1 .dropdown button.dropdown-toggle, .applicantDetails .select_1 .dropdown button:focus {
+		height: 38px !important;
+	}
+}
+@media(max-width: 991px){
+
+	.profile_main{
+		gap:0;
+	}
+	.jd_sidebar_box{
+		top: -120px;
+	}
+	.profile_right{
+		width: 100%;
+	}
+	.select_box .dropdown{
+		height: 38px;
+	}
+	.profile_main{
+		flex-direction: column;
+	}
+	.aside_left{
+		width: 100%;
+        margin-bottom: 25px;
+	}
+	.aside_left .profile_details .nav{
+	   flex-direction: row !important;
+       justify-content: space-between;
+	}
+	
+
+	.form_field .common_field {
+	    width:calc(50% - 24px);
+	}
+	.jd_right{
+		width: 100%;
+		/*padding-left: 15px;*/
+	}
+	.profile_right {
+		padding: 100px 0px 20px 0;
+		
+	}
+	.jdFormField,.jdFormField.description_input{
+	    width: calc(33.33333% - 22px);
+	}
+	.publisedField{
+		width: calc(33.33% - 24px);
+	}
+	.dashboard_section {
+		padding: 40px 15px 40px 15px;
+	}
+	.appl_sourcingPage .jd_heading {
+		flex-wrap: wrap;
+        row-gap: 15px;
+	}
+	.appl_sourcingPage .jd_head_flex,.appl_sourcingPage .left_ctn{
+        width:100%;
+		justify-content: space-between !important;
+	}
+	.headingBox {
+	    padding: 0;
+	}
+	.login_logo img {
+	    width: 67px;
+	    height: 67px;
+	}
+	.greenBTn{
+		height: 38px !important;
+		line-height: 38px;
+	}
+	.ClientForm .jdFormField,.ClientForm .jdFormField.w_50{
+		width: calc(50% - 16px);
+	}
+	.ctcOfferd_field{
+		gap: 0 !important;
+	}
+	.ctcOfferd_field>div {
+		width: 50% !important;
+	}
+	.resumeList ul li {
+		width: 50%;
+	}
+}
+@media(max-width: 767px){
+	.search_bar {
+	    position: absolute;
+		top: 50px;
+		left: 50%;
+		transform: translate(-50%,-110px);
+		width: calc(100% - 30px);
+		height: 48px;
+		transition-duration: 0.3s;
+		z-index: 999;
+		max-width: 100%;
+		margin: 0 auto
+	}
+	.select_box.select_1.header_select1 {
+	    margin-right: 0px;
+	}
+	.rightSiderbarcontent .header_left{
+		display: block !important;
+	}
+	.menu_wrapper {
+		position: fixed;
+	    top: 0px;
+	    left: -110px;
+	    transform: translate(-50%, 0);
+		z-index: 9999;
+		transition-duration: 0.3s;
+	}
+	
+	.mainSidebarHide{
+	    left: 34px;
+	    width: 70px;
+	    top: 0px;
+	    height: 100%;
+		z-index: 9999;
+	    border-left:1px solid var(--gray);
+	}
+	.hideEllipse .ellipseCrross{
+		display: none;
+	}
+	.ellipseCrross{
+		display: inline-block;
+	}
+	.hideEllipse .crrossEllipse{
+		display: inline-block;
+	}
+	.crrossEllipse{
+		display: none;
+	}
+	.menuHide{
+		transform: translate(1px,0px) !important;
+		right: 1px;
+	    top: 111px;
+		z-index: 99;
+		width:70px;
+	}
+	.header_notification img.pro_img {
+	    height: 35px;
+	    width: 35px;
+	}
+	.form_field .common_field {
+	    width:100%;
+	}
+	.profile_main{
+		gap:0px;
+	}
+	.profile_right{
+		/*width: calc(100% + 30px);*/
+	}
+	.user_name {
+	    padding-top: 75px;
+	}
+	.user_img img {
+	    height: 140px;
+	    width: 140px;
+	}
+	.reset_password button{
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		margin-right: 0px
+	}
+	.user_img a.profile_camera{
+		height: 38px;
+    	width: 38px;
+    	right: -10px;
+    	bottom: 10px;
+	}
+	.user_img a.profile_camera img{
+		height: 24px;
+    	width: 24px;
+	}
+	.reset_password{
+		order: 4;
+	}
+	.user_img_box{
+		display: flex;
+		flex-direction: column;
+	}
+	.dashboard_section{
+		padding: 30px 15px 30px 15px;
+	}
+	.searceHide{
+		transform: translate(-50%,13px) !important;
+		z-index: 99;
+	}
+	.jdFormField {
+	    width: calc(50% - 16px);
+	}
+	.formBox div {
+		gap: 15px;
+	}
+	.jdFormField.description_input {
+	    width: 100%;
+	}
+	.jdAssigned_select {
+    	width: calc(50% - 16px);
+    }
+    .publisedField{
+    	width: calc(50% - 16px);
+    }
+	.jd_arrow_img{
+		padding-left:0;
+	}
+	.search_bar_box .ellipse_icon img {
+		height: 20px;
+    	width: 20px;
+	}
+	.menu_toggle {
+		padding: 24px 10px;
+		opacity: 0;
+	}
+	.aside_left .profile_details .nav {
+		flex-direction: column !important;
+		row-gap: 5px;
+	}
+	.profile_details ul li a {
+		padding: 6px 8px !important;
+		font-size: 14px;
+	}
+	.body_wrapper{
+		width: 100%;
+	}
+	.login_logo{
+		left: 15px;
+	}
+	.login_logo img {
+	    width: 57px;
+	    height: 57px;
+	}
+	.main_body {
+    	padding: 20px;
+    }
+	.userMail {
+	    padding: 0 0 20px 0;
+	}
+	.form_body input,.loginBtn button{
+		height: 48px;
+	}
+	.password img{
+		top:18px;
+	}
+	.checkMail .headingBox{
+		margin-top: -100px;
+	}
+	.loginBtn {
+	    padding: 35px 0 20px 0;
+	}
+	.newPassword .headingBox{
+		margin-top: -85px;
+	}
+	.logInForm .headingBox{
+		margin-top: 181px;
+	}
+	.resetPassword .headingBox{
+		margin-top: -100px;
+	}
+	.forgetPassword .headingBox {
+ 	   margin-top: -150px;
+	}
+	.withOther{
+		padding: 20px 0;
+	}
+	.social_links{
+		column-gap: 20px;
+	}
+	.rigtht_add a span {
+		font-size: 16px;
+	}
+	.rigtht_add a img {
+		width:25px;
+	}
+	.my_100 {
+		margin: 30px 0;
+	}
+	.mainHeading {
+		font-size: 30px;
+	}
+	.subtitle {
+		font-size: 22px;
+	}
+	.logInForm .headingBox {
+		margin-top: 90px;
+	}
+	.logInForm .mainHeading,.resetPassword .headingBox,.checkMail .headingBox,.newPassword .headingBox,.forgetPassword .headingBox{
+		margin-top: 0px;
+	}
+	.body_wrapper.rightSiderbarcontent {
+		width: 100%;
+	}
+}
+@media(max-width: 575px){
+	.form_field .common_field {
+	    width:100% ;
+	}
+	.jdFormField {
+	    width: 100%;
+	}
+	.formBox{
+		row-gap:15px;
+	}
+	.header_select2 button {
+	    width: 80px !important;
+	}
+	.header_notification{
+		gap:15px;
+	}
+	.header_notification {
+		top: 12px;
+	}
+	.header_notification img.pro_img {
+	    height: 32px;
+	    width: 32px;
+	}
+	.header_left span{
+		font-size: 16px;
+	}
+
+	.profile_right{
+		padding: 60px 0 20px 0;
+	}
+	.header_notification img {
+	    width: 20px;
+	    height: 20px;
+	}
+	.agree_btn button {
+		font-size: var(--fs12);
+		padding: 6px 8px;
+	}
+	.agree_btn span {
+		font-size: var(--fs14);
+	}
+	.logo img.logo_1{
+		height: 24px;
+	}
+	.user_img img {
+	    height: 105px;
+	    width: 105px;
+	}
+	.jdFormField input, .jdFormField input:focus{
+		width: 100%;
+	}
+	.jdFormField{
+		width: 100%;
+	}
+	.publisedField{
+		width: 100%;
+	}
+	.defualt_pages .form-check {
+		width: fit-content;
+	}
+	.formBtn{
+		justify-content: space-between;
+	}
+	.jdAssigned_select{
+		width: 100%;
+	}
+	.defualt_pages label {
+		padding-left: 2px;
+	}
+	.radio_boxs> div:first-child,.radio_boxs> div:last-child {
+		max-width: 100%;
+	}
+	.radio_boxs> div:first-child {
+		margin-bottom: 8px;
+	}
+	.clientDocument label{
+		width: 100%;
+	}
+	.jd_arrow_img img {
+		width: 15px;
+	}
+	.social_links{
+		column-gap: 15px;
+	}
+	.main_body{
+		padding: 15px;
+	}
+	.login_logo {
+	    left: 10px;
+	}
+	.analytics_page {
+		padding: 20px 15px;
+	}
+	.analyticsGraph {
+		padding: 30px 0px;
+	}
+	.cardTitles h5 {
+		font-size: 18px;
+	}
+	.invoiceDetail_page .jd_heading_border_bottom{
+		flex-wrap: wrap;
+		row-gap: 15px;
+	}
+	.invoiceDetail_page .jd_arrow_img,.invoiceDetail_page .right_part {
+		width: 100%;
+		justify-content: end;
+	}
+	.select_1 .dropdown button.dropdown-toggle{
+		width: 105px;
+	}
+	.invoiceDetail_page .select_1 .dropdown button.dropdown-toggle {
+		width: 125px;
+	}
+	.ClientDetailPage .right_part {
+		justify-content: space-between;
+	}
+	.ClientDetailPage .select_1 .dropdown button.dropdown-toggle {
+		width: 75px !important;
+	}
+	.ClientForm .jdFormField, .ClientForm .jdFormField.w_50 {
+		width: 100%;
+	}
+	.invoiceFlowSec .left_ctn {
+		flex-wrap: wrap;
+		gap: 15px;
+	}
+	.invoiceFlowSec .left_ctn>p{
+		order: 3;
+	}
+	.resumeList ul li {
+		width: 100%;
+	}
+}
+@media(max-width:400px){
+	.leftSidebar {
+		width: 230px;
+		display: inline-block;
+	}
+	.table_pagination {
+		margin: 0 -20px;
+	}
+}
+@media(max-width:380px){
+	.ljpChartInsides.p-3 {
+		padding: 10px 0px 10px !important;
+	}
+	.cursorIcon {
+		right: 10px;
+	}
+}
+@media(max-width: 360px){
+	.select_box .dropdown button.dropdown-toggle, .select_box .dropdown button:focus{
+		width: 74px;
+	}
+
+	.select_box.select_1 .dropdown button.dropdown-toggle, .select_box .dropdown button:focus{
+		width: 114px;
+	}
+	.header_notification {
+		gap: 10px;
+	}
+}
+
+
+
+@media(min-width: 1600px){
+	.parsing_applicant_Main .formBox{
+		max-width: 80%;
+	}
+	.parsing_applicant_Main .jd_form{
+		padding:30px 50px;
+	}
+		.applicantDetails .jd_form .formBox .description_input {
+	    width: calc(60% - 14px);
+	}
+}
+
+@media(max-width:1200px){
+
+}
+@media(max-width:1024px){
+
+	.parsing_applicant_Main .jd_form .applicationSubmitBtn {
+	    padding: 120px 0 0 0;
+	}
+	.applicantDetails .jd_right .jd_heading .jd_arrow_img {
+	    width: 100%;
+	}
+	.applicantDetails .jd_right .jd_heading {
+		flex-wrap: wrap;
+	}
+	.applicantDetails .jd_right .jd_heading .jd_arrow_img .jdh_flex{
+		width: 100%;
+	}
+	.applicantDetails .jd_right .jd_heading .jd_arrow_img .jdh_flex .employerData {
+	    margin-left: auto;
+	}
+}
+@media(max-width:991px){
+	.parsing_applicant_Main .jd_form{
+		width: calc(100% - 215px);
+	}
+	.parsing_applicant_Main .aside_left{
+		width: 215px;
+	}
+	.parsing_applicant_Main .jd_form .applicationSubmitBtn {
+	    padding: 70px 0 0 0;
+	}
+	.parsing_applicant_Main .jdFormField {
+	    width: calc(50% - 16px);
+	}
+	.applicantDetails .jd_form .formBox .showStatusMain {
+	    width: 100%;
+	}
+		.applicantDetails .jd_form .formBox .description_input {
+	    width: calc(66% - 5px);
+	}
+}
+
+@media(max-width:767px){
+	
+	.parsing_applicant_Main .jd_form{
+		width: 100%;
+	}
+	.parsing_applicant_Main .jd_form .applicationSubmitBtn {
+	    padding: 50px 0 0 0;
+	}
+	.clientSendMail {
+	    column-gap: 30px;
+	}
+
+	.parsing_applicant_Main .aside_left{
+		overflow: hidden;
+		width: 215px;
+		left: -285px;
+		position: relative;
+	}
+	.parsing_applicant_Main .aside_left{
+		height: 0px;
+		margin: 0px;
+	}
+	.parsing_applicant_Main.resumeSidebarHide .aside_left{
+	    position: fixed;
+	    background: #fff;
+	    width: 215px;
+	    transform: translateX(50%);
+	   	left: -107px;
+	    top: 118px;
+	    height: 100%;
+	    overflow-y: auto;
+	    transition-duration: .2s;
+	}
+	.applicantDetails .jd_right .jd_heading .jd_arrow_img .jdh_flex .employerData {
+	    margin-left: auto;
+	}
+	.applicantDetails .jd_right .jd_heading .jd_heading_right{
+		padding-top: 15px;
+	}
+	.applicantDetails .jd_right .jd_heading 
+
+	.applicantDetails .jd_right .jd_heading .jd_heading_right {
+	    padding: 10px 0 0 0;
+	    margin-left: auto;
+	}
+	/*=============|| applicationDetails css||===============*/
+	.applicantDetails .jd_form .formBox .description_input {
+	    width: 100% !important;
+	}
+	.applicantDetails .jd_form .formBox .showStatusMain {
+	    width: 100%;
+	}
+		.footerFeedback {
+	    padding-top: 40px;
+	}
+}
+@media(max-width:575px){
+	.parsing_applicant_Main .jdFormField {
+	    width: 100%;
+	}
+	.parsing_applicant_Main .jd_form .applicationSubmitBtn {
+	    padding: 40px 0 0 0;
+	}
+	.clientSendMail {
+		/*column-gap: 30px;*/
+		row-gap: 10px;
+		flex-wrap: wrap;
+	}
+	.clientSendMail_btn {
+		order: 2;
+	}
+}
+@media(max-width:479px){
+
+}
+@media(max-width:350px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:991px){
+	.all_input_field {
+		width: calc(50% - 12px) !important;
+	}
+}
+@media (max-width:575px){
+	.all_input_field {
+		width: 100% !important;
+	}
+	.submit_btn {
+		border-radius: 7px;
+		padding: 6px 9px;
+	}
+	.candiBtn {
+		border-radius: 8px;
+		padding: 6px 9px;
+		
+	}
+	.cancleBtn {
+		/* / background-color: #FF5050; / */
+		padding: 5px 7px;	
+	}
+}
+
+
+
+
+
+@media(min-width: 1600px){
+	.applicant_details_2 .jd_form .applicant_details_2_form {
+	    width: 50%;
+	}
+}
+
+@media(max-width: 1200px){
+
+}
+@media(max-width: 991px){
+	
+	.clientSendMail {
+	    flex-wrap: wrap;
+	}
+	.applicant_details_1_form .form_field .common_field {
+	    width: 100%;
+	}
+
+	.applicant_details_1 .footerFeedback{
+		padding-top: 50px;
+	}
+		.applicant_details_1 .jd_form .clientSendMail_btn {
+	    padding-bottom: 10px;
+	}
+	.clientSendMail_btn {
+	    order: 2;
+	    padding-top: 5px;
+	}
+}
+@media(max-width: 767px){
+	
+	.applicant_details_2 .jd_right .jd_heading .jd_arrow_img .jdh_flex .employerData {
+	    row-gap: 0px !important;
+	}
+	.applicant_details_2 .jd_form .applicant_details_2_form {
+	    width: 100%;
+	}
+	.applicant_details_2 .jd_form .applicant_details_2_form{
+		width: 100%;
+	}
+	.jd_arrow_img {
+	    gap: 15px;
+	}
+	.applicant_details_2 .jd_form .clientSendMail_btn {
+	    padding-bottom: 10px;
+	}
+	.clientSendMail {
+	    flex-wrap: wrap;
+	}
+
+	.applicant_details_1 .jd_right .jd_form{
+		width: 100%;
+		order: 2;
+	}
+	.applicant_details_1 .apl1RightSidebar{
+		width: 100%;
+	}
+
+	.applicant_details_1 .footerFeedback{
+		padding-top: 76px;
+	}
+}
+@media(max-width: 575px){
+
+	/*=====||applicant_details_1 css||=======*/
+	.applicant_details_1 .jd_right .jd_heading .jd_heading_right{
+		flex-wrap: nowrap;
+	}
+	.applicant_details_1 .jd_heading_right .right_ellipse{
+		order: 3;
+		width: fit-content;
+	}
+	.applicant_details_1 .jd_right .jd_form{
+		width: 100%;
+	}
+	/*=====||applicant_details_2 css||=======*/
+	.applicant_details_2 .applicant_details_2_form .form_field .common_field {
+	    width: 100%;
+	}
+	.applicant_details_2 .jd_right .jd_heading .jd_heading_right{
+	    flex-wrap: wrap;
+	    justify-content: end !important;
+	    gap: 10px;
+	}
+	.jd_arrow_img img{
+		margin-left: -5px;
+	}
+	.right_ellipse {
+	    width: 100%;
+	    order: 1;
+	    text-align: right;
+	}
+	.applicant_details_2 .jd_right .jd_heading .jd_heading_right .select_box{
+	    order: 3;
+	}
+	.applicant_details_2 .jd_right .jd_heading .jd_heading_right .sheduleCtn{
+	    order: 2;
+	}
+	.applicant_details_2 .applicant_details_2_form button {
+	    margin-top: 0px;
+	}
+	.applicant_details_2  .jd_right .jd_form .footerFeedback,.applicant_details_1 .footerFeedback {
+	    padding-top: 20px;
+	}
+	.ql-snow.ql-toolbar button svg, .ql-snow .ql-toolbar button svg {
+		height: 12px !important;
+	}
+	.scond_btn {
+		padding: 6px 10px;
+	}
+	.first_btn {
+		padding: 6px;
+	}
+	.anchordiv a img {
+		width: 15px;
+	}
+	.anchordiv a:last-child img {
+		height: 15px;
+	}
+	.top-head p {
+		text-align: center;
+	}
+}
+
+
+/*=================||applicant_details_2 css end||=================*/
